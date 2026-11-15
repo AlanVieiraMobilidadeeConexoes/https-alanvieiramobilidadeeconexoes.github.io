@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alan Vieira | Mobilidade &amp; Conexões</title>
+<meta name="description" content="Alan Vieira, motorista particular no Rio de Janeiro. Solicite um orçamento pelo WhatsApp ou salve o contato na sua agenda.">
+<meta name="theme-color" content="#0b0b0c">
+<meta property="og:title" content="Alan Vieira | Mobilidade &amp; Conexões">
+<meta property="og:description" content="Mobilidade, experiências e boas conexões. Motorista particular no Rio de Janeiro.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0c'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='26' text-anchor='middle' fill='%23d4af37'%3EAV%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --preto:#0b0b0c; --grafite:#1b1c1f; --grafite2:#26272b;
+    --dourado:#d4af37; --dourado-claro:#f3d77a; --prata:#c9ccd1; --texto:#ececec; --suave:#9a9ca1;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--preto)}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color:var(--texto); min-height:100vh; min-height:100dvh;
+    background:
+      radial-gradient(120% 60% at 50% -10%, rgba(212,175,55,.18), transparent 60%),
+      radial-gradient(80% 50% at 100% 100%, rgba(201,204,209,.07), transparent 60%),
+      var(--preto);
+    display:flex; justify-content:center;
+    padding:max(28px, env(safe-area-inset-top)) 20px max(28px, env(safe-area-inset-bottom));
+    -webkit-font-smoothing:antialiased;
+  }
+  main{width:100%; max-width:440px; display:flex; flex-direction:column; align-items:center; text-align:center}
+
+  .selo{
+    width:92px; height:92px; border-radius:50%;
+    display:grid; place-items:center;
+    background:linear-gradient(145deg,#2a2b2f,#121315);
+    border:2px solid var(--dourado);
+    box-shadow:0 0 0 6px rgba(212,175,55,.08), 0 10px 30px rgba(0,0,0,.6);
+    font-weight:800; font-size:34px; letter-spacing:1px;
+    background-clip:padding-box;
+  }
+  .selo span{
+    background:linear-gradient(180deg,var(--dourado-claro),var(--dourado) 55%,#a8841f);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  h1{margin-top:20px; font-size:30px; font-weight:800; letter-spacing:.5px; line-height:1.15}
+  h1 .nome-1{color:var(--prata)}
+  h1 .nome-2{
+    background:linear-gradient(180deg,var(--dourado-claro),var(--dourado));
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .marca{margin-top:6px; font-size:13px; letter-spacing:3px; text-transform:uppercase; color:var(--dourado)}
+  .linha{width:120px; height:1px; margin:16px auto; background:linear-gradient(90deg,transparent,var(--dourado),transparent)}
+  .slogan{font-size:17px; font-style:italic; color:var(--prata)}
+  .intro{margin-top:14px; font-size:15px; line-height:1.55; color:var(--suave)}
+  .info{margin-top:14px; display:flex; gap:8px; flex-wrap:wrap; justify-content:center}
+  .tag{font-size:12.5px; color:var(--prata); border:1px solid #34353a; background:var(--grafite); padding:6px 11px; border-radius:999px}
+
+  .acoes{width:100%; margin-top:28px; display:flex; flex-direction:column; gap:14px}
+  .botao{
+    display:flex; align-items:center; gap:14px; width:100%;
+    padding:16px 18px; border-radius:16px; text-decoration:none; text-align:left;
+    -webkit-tap-highlight-color:transparent; transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .botao:active{transform:scale(.98)}
+  .botao .icone{flex:0 0 46px; height:46px; border-radius:12px; display:grid; place-items:center}
+  .botao .icone svg{width:26px; height:26px}
+  .botao strong{display:block; font-size:16.5px; font-weight:700}
+  .botao small{display:block; margin-top:4px; font-size:13px; line-height:1.4}
+
+  .principal{
+    background:linear-gradient(180deg,var(--dourado-claro),var(--dourado) 60%,#b8921f);
+    color:#141414; box-shadow:0 10px 28px rgba(212,175,55,.28);
+  }
+  .principal .icone{background:rgba(0,0,0,.14)}
+  .principal small{color:#2b2410}
+
+  .secundario{background:var(--grafite); border:1px solid #3a3b40; color:var(--texto)}
+  .secundario .icone{background:var(--grafite2); border:1px solid var(--dourado)}
+  .secundario small{color:var(--suave)}
+
+  .dica{margin-top:10px; font-size:12px; color:#7d7f84; line-height:1.5}
+
+  footer{margin-top:auto; padding-top:36px; font-size:12px; color:#6f7176; line-height:1.6}
+  footer a{color:var(--prata); text-decoration:none}
+</style>
+</head>
+<body>
+<main>
+  <div class="selo" aria-hidden="true"><span>AV</span></div>
+
+  <h1><span class="nome-1">Alan</span> <span class="nome-2">Vieira</span></h1>
+  <p class="marca">Mobilidade &amp; Conexões</p>
+  <div class="linha"></div>
+  <p class="slogan">“Mobilidade, experiências e boas conexões.”</p>
+  <p class="intro">Bem-vindo! Este é o espaço para facilitar seu contato, conhecer nossos serviços e acompanhar recomendações e oportunidades no Rio de Janeiro.</p>
+
+  <div class="info">
+    <span class="tag">Motorista Particular</span>
+    <span class="tag">Rio de Janeiro — RJ</span>
+  </div>
+
+  <div class="acoes">
+    <!-- BOTÃO 1 — SOLICITAR ORÇAMENTO -->
+    <a class="botao principal" id="btn-orcamento" target="_blank" rel="noopener"
+       href="https://wa.me/5521920495983?text=Ol%C3%A1%2C%20Alan!%20Acessei%20sua%20p%C3%A1gina%20Mobilidade%20%26%20Conex%C3%B5es%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20transporte%20particular.%0A%0AOrigem%3A%0ADestino%3A%0AData%3A%0AHor%C3%A1rio%3A%0AN%C3%BAmero%20de%20passageiros%3A%0A%0AAguardo%20seu%20retorno%20sobre%20disponibilidade%20e%20valores.%20Obrigado!">
+      <span class="icone" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="#141414"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.23 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+      </span>
+      <span>
+        <strong>Solicitar orçamento pelo WhatsApp</strong>
+        <small>Precisa de um transporte particular? Entre em contato para consultar disponibilidade e solicitar um orçamento para seu trajeto ou viagem.</small>
+      </span>
+    </a>
+
+    <!-- BOTÃO 2 — SALVAR CONTATO -->
+    <a class="botao secundario" id="btn-contato" href="contato.vcf" type="text/vcard">
+      <span class="icone" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="8" r="4"/><path d="M2.5 21c.8-3.9 3.9-6 7.5-6 1.6 0 3 .4 4.2 1.1"/><path d="M19 14v7M15.5 17.5h7"/></svg>
+      </span>
+      <span>
+        <strong>Salvar meu contato</strong>
+        <small>Adicione Alan Vieira à sua agenda e tenha meus canais de atendimento sempre à mão.</small>
+      </span>
+    </a>
+
+    <!-- BOTÃO 3 — INSTAGRAM: será adicionado aqui quando o perfil for criado e confirmado. -->
+  </div>
+
+  <p class="dica">Ao salvar o contato, confirme a inclusão na tela que abrir no seu celular.</p>
+
+  <footer>
+    WhatsApp: <a href="https://wa.me/5521920495983" target="_blank" rel="noopener">(21) 92049-5983</a><br>
+    Rio de Janeiro — RJ · Consultas e agendamentos<br>
+    © Alan Vieira | Mobilidade &amp; Conexões
+  </footer>
+</main>
+</body>
+</html>
